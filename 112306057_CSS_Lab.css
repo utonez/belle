@@ -1,0 +1,24 @@
+/* Global styles for all media types */
+body {
+    color: black; /* Change text color */
+    background-color: #333; /* Change background color */
+}
+
+/* Styles for screen display */
+@media all {
+    h1 {
+        color: pink; /* Change heading color for screen display */
+    }
+
+    .navbar {
+        background-color: #4CAF50; /* Change background color for the navbar */
+    }
+}
+
+/* Styles for print media */
+@media print {
+    body {
+        color: black; /* Change text color for print media */
+        background-color: white; /* Change background color for print media */
+    }
+}
